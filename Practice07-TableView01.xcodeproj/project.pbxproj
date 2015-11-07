@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		043A357E1BEDA4570018C514 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A357D1BEDA4570018C514 /* AppDelegate.swift */; };
-		043A35801BEDA4570018C514 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A357F1BEDA4570018C514 /* ViewController.swift */; };
 		043A35831BEDA4580018C514 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043A35811BEDA4580018C514 /* Main.storyboard */; };
 		043A35851BEDA4580018C514 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043A35841BEDA4580018C514 /* Assets.xcassets */; };
 		043A35881BEDA4580018C514 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043A35861BEDA4580018C514 /* LaunchScreen.storyboard */; };
 		043A35931BEDA4580018C514 /* Practice07_TableView01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A35921BEDA4580018C514 /* Practice07_TableView01Tests.swift */; };
 		043A359E1BEDA4580018C514 /* Practice07_TableView01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A359D1BEDA4580018C514 /* Practice07_TableView01UITests.swift */; };
+		043A35AE1BEDA67A0018C514 /* bolsas.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A35AB1BEDA67A0018C514 /* bolsas.png */; settings = {ASSET_TAGS = (); }; };
+		043A35AF1BEDA67A0018C514 /* buzon 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A35AC1BEDA67A0018C514 /* buzon 3.png */; settings = {ASSET_TAGS = (); }; };
+		043A35B01BEDA67A0018C514 /* buzon 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 043A35AD1BEDA67A0018C514 /* buzon 5.png */; settings = {ASSET_TAGS = (); }; };
+		043A35B21BEDA8B30018C514 /* StaticListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A35B11BEDA8B30018C514 /* StaticListViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		043A357A1BEDA4570018C514 /* Practice07-TableView01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practice07-TableView01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		043A357D1BEDA4570018C514 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		043A357F1BEDA4570018C514 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		043A35821BEDA4580018C514 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		043A35841BEDA4580018C514 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043A35871BEDA4580018C514 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		043A35991BEDA4580018C514 /* Practice07-TableView01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practice07-TableView01UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		043A359D1BEDA4580018C514 /* Practice07_TableView01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice07_TableView01UITests.swift; sourceTree = "<group>"; };
 		043A359F1BEDA4580018C514 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043A35AB1BEDA67A0018C514 /* bolsas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bolsas.png; sourceTree = "<group>"; };
+		043A35AC1BEDA67A0018C514 /* buzon 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buzon 3.png"; sourceTree = "<group>"; };
+		043A35AD1BEDA67A0018C514 /* buzon 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buzon 5.png"; sourceTree = "<group>"; };
+		043A35B11BEDA8B30018C514 /* StaticListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				043A357D1BEDA4570018C514 /* AppDelegate.swift */,
-				043A357F1BEDA4570018C514 /* ViewController.swift */,
 				043A35811BEDA4580018C514 /* Main.storyboard */,
 				043A35841BEDA4580018C514 /* Assets.xcassets */,
 				043A35861BEDA4580018C514 /* LaunchScreen.storyboard */,
 				043A35891BEDA4580018C514 /* Info.plist */,
+				043A35AB1BEDA67A0018C514 /* bolsas.png */,
+				043A35AC1BEDA67A0018C514 /* buzon 3.png */,
+				043A35AD1BEDA67A0018C514 /* buzon 5.png */,
+				043A35B11BEDA8B30018C514 /* StaticListViewController.swift */,
 			);
 			path = "Practice07-TableView01";
 			sourceTree = "<group>";
@@ -228,7 +237,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043A35AF1BEDA67A0018C514 /* buzon 3.png in Resources */,
+				043A35B01BEDA67A0018C514 /* buzon 5.png in Resources */,
 				043A35881BEDA4580018C514 /* LaunchScreen.storyboard in Resources */,
+				043A35AE1BEDA67A0018C514 /* bolsas.png in Resources */,
 				043A35851BEDA4580018C514 /* Assets.xcassets in Resources */,
 				043A35831BEDA4580018C514 /* Main.storyboard in Resources */,
 			);
@@ -255,7 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				043A35801BEDA4570018C514 /* ViewController.swift in Sources */,
+				043A35B21BEDA8B30018C514 /* StaticListViewController.swift in Sources */,
 				043A357E1BEDA4570018C514 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
